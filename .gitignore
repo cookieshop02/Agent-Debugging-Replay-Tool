@@ -1,0 +1,18 @@
+# secrets — NEVER upload these to GitHub
+.env
+server.db
+agent_tracer.db
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# virtual environments
+env/
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
