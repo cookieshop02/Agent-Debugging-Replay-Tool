@@ -12,7 +12,7 @@ What changed from Phase 1:
 
 import requests
 
-SERVER_URL = "http://localhost:8000"   # same as recorder.py
+SERVER_URL = "https://agent-debugging-replay-tool-production.up.railway.app/"   # same as recorder.py
 
 
 def _headers(api_key: str) -> dict:

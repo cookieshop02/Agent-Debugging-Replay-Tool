@@ -19,7 +19,7 @@ from datetime import datetime
 # ── point this at your server ──────────────────
 # local dev:   http://localhost:8000
 # production:  https://your-app.railway.app
-SERVER_URL = "http://localhost:8000"
+SERVER_URL = "https://agent-debugging-replay-tool-production.up.railway.app/"
 
 
 class AgentTracer:

@@ -12,7 +12,7 @@ and shows them as separate pages.
 import streamlit as st
 import requests
 
-SERVER_URL = "http://localhost:8000"
+SERVER_URL = "https://agent-debugging-replay-tool-production.up.railway.app/"
 
 st.set_page_config(
     page_title="Agent Tracer — Login",
